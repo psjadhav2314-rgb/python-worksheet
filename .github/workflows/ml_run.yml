@@ -12,11 +12,11 @@ jobs:
         uses: actions/checkout@v6 # uses the checkout action to checkout the code
 
       - name: Set up Python
-        uses: actions/setup-python@v6n # uses the setup-python action to set up the python environment
+        uses: actions/setup-python@v6 # uses the setup-python action to set up the python environment
         with:
           python-version: '3.13'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install scikit-learn numpy
