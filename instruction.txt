@@ -1,0 +1,25 @@
+1. Git local directory
+2. .github and .github/workflows 
+3. .github/workflows/ml_run.yml
+4. Copy the code for yml file from notebook
+5. Cd base folder
+6. Git init , git add . , git commit
+
+1. GitHub repo
+
+1. Connect local git folder with GitHub repo
+Remote origin…. Command
+
+1. Git push
+But if fails. 
+It fails because the earlier token used did not had permission for running workflows.
+You need a new token. 
+Create new token with workflow permissions
+
+1. Come back to local machine
+Install git-credential-manager
+This utility helps you to change token. 
+With git-credential manager you change to token with workflow permissions. 
+
+Git push
+Your workflow should run fine.
