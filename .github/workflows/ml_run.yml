@@ -21,3 +21,4 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt # installs the dependencies from requirements.txt
           python ml_example.py
+          python numpyMinTest.py
