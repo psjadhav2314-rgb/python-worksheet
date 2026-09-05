@@ -1,6 +1,6 @@
 # add following code to .yml file to run python script on push to main branch
 
-name: ML Run
+name: ML Run workflow # name of the workflow
 # on mentions a trigger for the workflow
 on:
     #push: # when a push is made to the main branch of the repository
